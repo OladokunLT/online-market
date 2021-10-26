@@ -43,3 +43,11 @@ ul li{
     font-size: small;
     gap: 2re;
 }
+.bg-second{
+    background-image: url(../images/content-bg02.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
