@@ -1,0 +1,45 @@
+*, html body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    background-image: url(../images/content-bg01.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.banner .header-title{
+    padding-top: 120px;
+}
+/* .bg-color{
+    background-color: black;
+    width: 100%;
+    background-position:inherit;
+    opacity: 75%;
+    height: inherit;
+} */
+
+footer a{
+    color: white;
+    text-decoration: unset;
+}
+ul li{
+    list-style: none;
+}
+.slide-container{
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+.developer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: small;
+    gap: 2re;
+}
